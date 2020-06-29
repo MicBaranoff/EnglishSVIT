@@ -3,6 +3,10 @@
   src: url('../fonts/SpaceMono-Regular.ttf');
 }
 @font-face {
+  font-family: Arial;
+  src: url('../fonts/ArialRoundedMTProCyr.otf');
+}
+@font-face {
   font-family: SpaceMonoB;
   src: url('../fonts/SpaceMono-Bold.ttf');
 }
@@ -132,7 +136,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-family: Podkova;
+  font-family: Arial;
   font-size: 16px;
 }
 ol,
@@ -441,10 +445,10 @@ header .holder nav ul li a:hover {
   width: 100%;
   height: 40px;
   padding: 0 20px;
+  font-size: Arial;
   margin-bottom: 15px;
   border: none;
   border-radius: 5px;
-  font-family: Podkova;
   -webkit-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
@@ -1053,6 +1057,7 @@ section.reviews .holder .reviews-slider .swiper-container .swiper-wrapper .swipe
   font-size: 22px;
   color: #001e67;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 section.reviews .holder .reviews-slider .swiper-container .swiper-wrapper .swiper-slide .pers p.date {
   font-size: 18px;
@@ -1289,6 +1294,7 @@ footer .holder .right .nums a {
   display: block;
   color: #fff;
   font-size: 26px;
+  line-height: 40px;
   text-align: center;
 }
 footer .holder .right .nums a:hover {
